@@ -2,19 +2,20 @@ package com.example.demo.customer;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.*;
 
 public class Customer {
+//    @Size()
     private final Long id;
-    @NotBlank
+    @NotBlank(message = "name must be not empty!!")
     private final String name;
-    @NotBlank
+    @NotBlank(message = "password must be not empty!!")
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private final String password;
-    @NotBlank
+    @NotBlank(message = "email must be not empty!!")
 //    @Email()
     @Email
+//    @Max()
     private final String email;
 
     Customer(Long id, String name, String password, String email) {
