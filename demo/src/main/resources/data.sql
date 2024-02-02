@@ -1,0 +1,32 @@
+insert into customer (id, name, password, email) values (1, 'Ivan Zhang', 'password', 'ivan@gmail.com');
+insert into customer (id, name, password, email) values (2, 'Sarah Brown', 'sarahpass', 'sarah.brown@gmail.com');
+insert into customer (id, name, password, email) values (3, 'Michael Lee', 'michaelpw', 'michael.lee@example.com');
+insert into customer (id, name, password, email) values (4, 'Emily Davis', 'emilypassword', 'emily.davis@email.com');
+insert into customer (id, name, password, email) values (5, 'Daniel Wilson', 'danielpass', 'daniel.wilson@gmail.com');
+insert into customer (id, name, password, email) values (6, 'Sophia Johnson', 'sophiapw', 'sophia.johnson@example.com');
+insert into customer (id, name, password, email) values (7, 'William Brown', 'williampass', 'william.brown@email.com');
+insert into customer (id, name, password, email) values (8, 'Olivia Davis', 'oliviapassword', 'olivia.davis@email.com');
+insert into customer (id, name, password, email) values (9, 'James Smith', 'jamespass', 'james.smith@gmail.com');
+insert into customer (id, name, password, email) values (10, 'Emma Taylor', 'emmapw', 'emma.taylor@example.com');
+insert into customer (id, name, password, email) values (11, 'Liam Wilson', 'liampass', 'liam.wilson@gmail.com');
+insert into customer (id, name, password, email) values (12, 'Olivia Smith', 'oliviapw', 'olivia.smith@example.com');
+insert into customer (id, name, password, email) values (13, 'Noah Johnson', 'noahpass', 'noah.johnson@email.com');
+insert into customer (id, name, password, email) values (14, 'Emma Brown', 'emmapassword', 'emma.brown@email.com');
+insert into customer (id, name, password, email) values (15, 'Ava Davis', 'avapass', 'ava.davis@gmail.com');
+insert into customer (id, name, password, email) values (16, 'Sophia Lee', 'sophiapass', 'sophia.lee@example.com');
+insert into customer (id, name, password, email) values (17, 'Mia Taylor', 'miapw', 'mia.taylor@email.com');
+insert into customer (id, name, password, email) values (18, 'Lucas Martinez', 'lucaspass', 'lucas.martinez@gmail.com');
+insert into customer (id, name, password, email) values (19, 'Jackson Wilson', 'jacksonpass', 'jackson.wilson@example.com');
+insert into customer (id, name, password, email) values (20, 'Evelyn Johnson', 'evelynpass', 'evelyn.johnson@email.com');
+-- 使用随机生成的唯一ID（假设ID为整数）
+insert into customer (id, name, password, email) values (21, 'Benjamin Davis', 'benjaminpass', 'benjamin.davis@gmail.com');
+insert into customer (id, name, password, email) values (22, 'Abigail Wilson', 'abigailpass', 'abigail.wilson@example.com');
+insert into customer (id, name, password, email) values (23, 'Ella Martinez', 'ellapw', 'ella.martinez@email.com');
+insert into customer (id, name, password, email) values (24, 'Logan Johnson', 'loganpass', 'logan.johnson@email.com');
+insert into customer (id, name, password, email) values (25, 'Lily Smith', 'lilypassword', 'lily.smith@gmail.com');
+insert into customer (id, name, password, email) values (26, 'Mason Taylor', 'masonpass', 'mason.taylor@example.com');
+insert into customer (id, name, password, email) values (27, 'Oliver Brown', 'oliverpass', 'oliver.brown@email.com');
+insert into customer (id, name, password, email) values (28, 'Charlotte Lee', 'charlottepw', 'charlotte.lee@gmail.com');
+insert into customer (id, name, password, email) values (29, 'Elijah Davis', 'elijahpass', 'elijah.davis@example.com');
+insert into customer (id, name, password, email) values (30, 'Amelia Smith', 'ameliapass', 'amelia.smith@email.com');
+

@@ -1,23 +1,9 @@
 package com.example.demo.customer;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 //@Repository
 //@Primary
-public class CustomerRepository implements CustomerRepo{
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
-    @Override
-    public List<Customer> getCustomers() {
-        // TODO connect to real db
-        return Arrays.asList(
-                new Customer(1L,"Ivan Zhang", "password1","email@gmail.com"),
-                new Customer(2L,"Jamila Ahmed", "password2", "email@gmail.com")
-        );
-    }
 }
