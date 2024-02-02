@@ -11,7 +11,6 @@ import jakarta.validation.constraints.*;
 @Table
 public class Customer {
 //    @Size()
-
     @Id
     private Long id;
     @NotBlank(message = "name must be not empty!!")
